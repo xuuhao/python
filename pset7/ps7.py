@@ -264,15 +264,15 @@ def main_thread(master):
     # this with something more configurable in Problem 11
     try:
         # These will probably generate a few hits...
-        t1 = TitleTrigger("Obama")
-        t2 = SubjectTrigger("Romney")
-        t3 = PhraseTrigger("Election")
-        t4 = OrTrigger(t2, t3)
-        triggerlist = [t1, t4]
+        # t1 = TitleTrigger("Obama")
+        # t2 = SubjectTrigger("Romney")
+        # t3 = PhraseTrigger("Election")
+        # t4 = OrTrigger(t2, t3)
+        # triggerlist = [t1, t4]
         
         # TODO: Problem 11
         # After implementing makeTrigger, uncomment the line below:
-        # triggerlist = readTriggerConfig("triggers.txt")
+        triggerlist = readTriggerConfig("triggers.txt")
 
         # **** from here down is about drawing ****
         frame = Frame(master)
